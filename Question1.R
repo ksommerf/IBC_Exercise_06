@@ -1,5 +1,5 @@
 #Kyle Sommerfield and Farai Musariri
-#Return a defined number of lines from the beginning of a file
-file <- file to return lines from
-n <- number of desired lines
-read.csv(file="file", nrows=n)
+#Let "file.csv" be a .csv file that we want to rename as "data"
+#Let i be the number of lines to be shown from the top of the file
+data <- read.csv(file='file.csv',header=TRUE,stringsAsFactors=FALSE)
+head(data,i)
